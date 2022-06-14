@@ -1,0 +1,58 @@
+.gold-price {
+  width: 100%;
+  height: 100%;
+}
+
+.gold-price table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.gold-price table tr th, td {
+  padding: 5px;
+  background: #ddd;
+  border-bottom: 2px solid white; 
+}
+.gold-price table tr th {
+  padding: 1em;
+  background-color: #6a3c57;
+  color: white;
+}
+
+.gold-price table tr td {
+  text-align: center;
+}
+
+.gold-price table tr td.title {
+  text-align: left;
+  width: 120px;
+}
+
+.gold-price table tr td .jewel {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.gold-price table tr td.buy, td.change-down {
+  color: #ff6347;
+  font-weight: 700;
+}
+.gold-price table tr td.sell, td.change-up{
+  color: #006A4E;
+  font-weight: 700;
+}
+.gold-price table tr td.change {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}

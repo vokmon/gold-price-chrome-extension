@@ -1,0 +1,24 @@
+{
+  "short_name": "Gold price",
+  "name": "Real Time Gold Price Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Gold price",
+    "default_icon": "gold-icon.png",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "gold-icon.png",
+    "48": "gold-icon.png",
+    "128": "gold-icon.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'",
+    "sandbox": "sandbox allow-scripts; script-src 'self'; object-src 'self'"
+  },
+  "background": {
+    "service_worker": "assets/js/background.js"
+  },
+  "permissions": ["alarms"]
+}
