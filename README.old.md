@@ -1,1 +1,0 @@
-# gold-price-chrome-extension
